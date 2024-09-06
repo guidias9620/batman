@@ -1,0 +1,56 @@
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #121212; /* Fundo preto */
+    color: #f5f5f5; /* Texto branco */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1c1c; /* Cinza escuro */
+    color: #ffcc00; /* Amarelo escuro */
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.chamada {
+    background-color: #444444; /* Cinza metálico */
+    color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.chamada-texto h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    margin: 0 0 10px;
+    color: #ffcc00; /* Amarelo escuro */
+}
+
+.filmes-series {
+    padding: 20px;
+    background-color: #1c1c1c; /* Cinza escuro */
+}
+
+.filmes-series h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Amarelo escuro */
+}
+
+.categoria-videos a img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+    width: 300px;
+    height: auto;
+}
+
+.categoria-videos a img:hover {
+    transform: scale(1.05);
+    border: 2px solid #ffcc00; /* Borda amarela ao passar o mouse */
+}
